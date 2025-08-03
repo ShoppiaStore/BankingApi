@@ -1,0 +1,18 @@
+server:
+ port: 8081
+spring:
+ datasource:
+  url: jdbc:mysql://yamabiko.proxy.rlwy.net:24505/railway
+  username: root
+  password: WuYXXAfBafbSxnnVZpFZPohshroNaHqJ
+  driver-class-name: com.mysql.cj.jdbc.Driver
+
+ jpa:
+  hibernate:
+   ddl-auto:  update
+
+rsa:
+ private-key: classpath:certs/private.pem
+ public-key: classpath:certs/public.pem
+
+
